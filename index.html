@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shopping Page Details</title>
+  <!-- Authors Disclaimer: sample responsive shopping list desinged and implemented by Najib R for the fun purposes! -->
+</head>
+<body>
+
+<form action="">
+  <div class="container">
+    <div class="details">
+      <div class="address">
+        <div class="form-group">
+          <label for="addresss">Address:</label>
+          <input type="text" name="address" id="address" placeholder="Address..." size="30px" maxlength="100">
+        </div>
+          
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input type="text" name="city" id="city" placeholder="City..." size="30px" maxlength="100">
+        </div>
+          
+        <div class="form-group">
+          <label for="postcode">Postcode:</label>
+          <input type="text" name="postcode" id="postcode" placeholder="Postcode..." size="30px" maxlength="100">
+        </div>
+        
+      </div>
+      <div class="shipping">
+        <div>Choose your shipping method:</div>
+        <div>
+          <select name="shipping" id="shipping">
+            <option value="express">Express delivery</option>
+            <option value="fast">Fast delivery</option>
+            <option value="normal">Normal delivery</option>
+          </select>
+        </div>
+        
+      </div>
+      <div class="payment">
+        <div class="payment-text">Choose your payment method:</div>
+        <div class="radio">
+          <label for="payment"><input type="radio" name="payment" value="paypal">Apple Pay</label>
+          <label for="payment"><input type="radio" name="payment" value="Debit-card">Google Pay</label>
+          <label for="payment"><input type="radio" name="payment" value="Credit-card">Direct Debit</label>
+        </div>
+      </div>
+      <div class="checks">
+        <label for=""><input type="checkbox" checked="checked" name="sign-up-email">Sign me up for emails updates</label>
+        <label for=""><input type="checkbox" checked="checked" name="save-payment-details">Securely save my payment details</label>
+      </div>
+    </div>
+    <div class="comments">
+      <label for="comment">Comments:</label>
+      <textarea name="comments" id="" cols="50" rows="10"></textarea>
+    </div>
+  </div>
+
+  <div class="submit">
+    <button type="submit" name="submit"  value="submit">Submit</button>
+  </div>
+  <footer>&copy; Designed & Implemented  by Najib R for fun purposes. All rights reserved.</footer>
+
+</form>
+
+</body>
+</html>
